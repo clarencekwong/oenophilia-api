@@ -4,7 +4,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :wines, only: [:index, :update]
       resources :users, only: [:index, :update]
-      resources :reviews, only: [:index, :update]
+      resources :reviews, only: [:index, :update, :create, :destroy]
     end
   end
 end
