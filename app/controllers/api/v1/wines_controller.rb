@@ -17,7 +17,7 @@ class Api::V1::WinesController < ApplicationController
     private
 
     def wine_params
-      params.permit(:title, :content)
+      params.permit(:name, :category, :variety, :description, :img)
     end
 
     def find_wine
