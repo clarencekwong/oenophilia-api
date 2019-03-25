@@ -30,12 +30,6 @@ User.create({firstname: "Bernard", lastname: "Lowe", email: "bernardlowe@delos.c
 
 User.create({firstname: "William", lastname: "NA", email: "mib@delos.com", password:"bill", birthday:DateTime.new(1980,5,17)})
 
-Review.create({foodwine_id: 1, user_id: 1, review: "some boring review", rating:2})
-
-Review.create({foodwine_id: 2, user_id: 2, review: "some cooler review", rating:4})
-
-p "created Wines:#{Wine.count}, Users:#{User.count}, Reviews:#{Review.count}"
-
 Food.create({name: "Red Meat"})
 Food.create({name: "Lamb"})
 Food.create({name: "Chicken"})
@@ -65,3 +59,9 @@ Foodwine.create({food_id: 11, wine_id: 3})
 Foodwine.create({food_id: 12, wine_id: 4})
 Foodwine.create({food_id: 13, wine_id: 5})
 Foodwine.create({food_id: 14, wine_id: 6})
+
+Review.create({foodwine_id: 1, user_id: 1, review: "some boring review", rating:2})
+
+Review.create({foodwine_id: 2, user_id: 2, review: "some cooler review", rating:4})
+
+p "created Wines:#{Wine.count}, Users:#{User.count}, Reviews:#{Review.count}"
