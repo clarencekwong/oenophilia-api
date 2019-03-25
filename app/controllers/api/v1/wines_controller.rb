@@ -21,6 +21,6 @@ class Api::V1::WinesController < ApplicationController
     end
 
     def find_wine
-      @wine = Note.find(params[:id])
+      @wine = Wine.find(params[:id])
     end
 end
