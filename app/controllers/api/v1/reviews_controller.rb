@@ -17,7 +17,7 @@ class Api::V1::ReviewsController < ApplicationController
     private
 
     def review_params
-      params.permit(:name, :category, :variety, :description, :img)
+      params.permit(:wine_id, :user_id, :review, :rating)
     end
 
     def find_review
