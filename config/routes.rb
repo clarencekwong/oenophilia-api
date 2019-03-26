@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :wines, only: [:index, :update]
-      resources :users, only: [:index, :update]
+      resources :users, only: [:index, :update, :create]
       resources :foods, only: [:index, :update]
       resources :foodwines, only: [:index, :update]
       resources :reviews, only: [:index, :update, :create, :destroy]
