@@ -56,8 +56,6 @@ Food.create({name: "Hard Cheese"})
 Food.create({name: "Soft Cheese"})
 Food.create({name: "Red Sauce Pasta"})
 Food.create({name: "White Sauce Pasta"})
-Food.create({name: "Indian"})
-Food.create({name: "Mexican"})
 
 Foodwine.create({food_id: 1, wine_id: 1})
 Foodwine.create({food_id: 2, wine_id: 2})
