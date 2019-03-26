@@ -40,11 +40,6 @@ Wine.create({name: "K Vintners Guido Sangiovese", category: "Red", variety: "San
 User.create({firstname: "Bernard", lastname: "Lowe", email: "bernardlowe@delos.com", password:"arnoldweber", birthday:DateTime.new(2017,3,25)})
 User.create({firstname: "William", lastname: "NA", email: "mib@delos.com", password:"bill", birthday:DateTime.new(1980,5,17)})
 
-Review.create({foodwine_id: 1, user_id: 1, review: "some boring review", rating:2})
-Review.create({foodwine_id: 2, user_id: 2, review: "some cooler review", rating:4})
-
-p "created Wines:#{Wine.count}, Users:#{User.count}, Reviews:#{Review.count}"
-
 Food.create({name: "Red Meat"})
 Food.create({name: "Lamb"})
 Food.create({name: "Poultry"})
