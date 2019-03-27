@@ -5,7 +5,7 @@ Rails.application.routes.draw do
       resources :wines, only: [:index]
       resources :users, only: [:index, :update, :create]
       resources :foods, only: [:index]
-      resources :favorites, only: [:index]
+      resources :favorites, only: [:index, :create, :destroy]
       resources :foodwines, only: [:index]
       resources :reviews, only: [:index, :update, :create, :destroy]
     end
