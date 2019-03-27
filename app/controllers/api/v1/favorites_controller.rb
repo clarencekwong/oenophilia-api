@@ -1,4 +1,5 @@
 class Api::V1::FavoritesController < ApplicationController
+  before_action :find_favorites, only: [:update, :destroy]
 
   def index
     @favorites = FavoriteWine.all
@@ -23,5 +24,9 @@ class Api::V1::FavoritesController < ApplicationController
 
   def favorite_params
     params.permit(:wine_id, :user_id)
+  end
+
+  def find_favorites
+    @favorite = FavoriteWine.find(params[:id])
   end
 end
