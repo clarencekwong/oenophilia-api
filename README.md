@@ -4,7 +4,7 @@ Oenophilia is a simple web applications made for users to find their recommended
 
 ## Oenophilia API
 
-Oenophilia API is built on Ruby on Rails and is the back-end for the [Oenophilia](https://github.com/clarencekwong/oenophilia-fe). The API stores the food-wine pairings, as well as logged in users favoured wine pairs.
+Oenophilia API is built on Ruby on Rails and is the back-end for [Oenophilia](https://github.com/clarencekwong/oenophilia-fe). The API stores the food-wine pairings, as well as logged in users favoured wine pairs and reviews.
 
 ## Installation
 
