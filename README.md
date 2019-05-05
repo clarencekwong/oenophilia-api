@@ -8,4 +8,4 @@ Oenophilia API is built on Ruby on Rails and is the back-end for [Oenophilia](ht
 
 ## Installation
 
-Fork and clone the repository onto your local machine. `cd` into oenophilia-api and run `bundle install`. Afterwards, run `rails s` to start the API back-end.
+Fork and clone the repository onto your local machine. `cd` into oenophilia-api and run `bundle install`. Make sure to create the database and initalize the schema with `rake db:create && rake db:migrate` then run `rake db:seed` to have the food-pairing data seeded. Afterwards, run `rails s` to start the API back-end.
