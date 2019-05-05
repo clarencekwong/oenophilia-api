@@ -1,24 +1,9 @@
-# README
+# Oenophilia API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Oenophilia API is the back-end for the [Oenophilia](https://github.com/clarencekwong/oenophilia-fe). The API stores the food-wine pairings, as well as logged in users favoured wine pairs.
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+Fork and clone the repository onto your local machine. `cd` into oenophilia-api and run `bundle install`. Afterwards, run `rails s` to start the API back-end.
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
