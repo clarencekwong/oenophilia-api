@@ -2,6 +2,8 @@
 
 Oenophilia is a simple web applications made for users to find their recommended food and wine pairing. Users are able to select the food type they are currently having, and the web application will recommend some wine varietals for the users. Users can then select that they chose this pairing for their food and write a review if they wish to.
 
+![](https://media.giphy.com/media/lp1ZvMyVRO9bPAvhZl/source.gif)
+
 ## Oenophilia API
 
 Oenophilia API is built on Ruby on Rails and is the back-end for [Oenophilia](https://github.com/clarencekwong/oenophilia-fe). The API stores the food-wine pairings, as well as logged in users favoured wine pairs and reviews.
